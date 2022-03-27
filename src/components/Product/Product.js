@@ -4,10 +4,8 @@ import React from 'react';
 import './Product.css';
 
 const Product = (props) => {
-    console.log(props);
 
     const {name, price, picture} = props.product;
-    console.log(price)
     return (
         <div className='product'>
             <img src={picture} alt="img" />
